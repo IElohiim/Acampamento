@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Igreja Elohim - Acampamento Esperança</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <link
+   href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+   rel="stylesheet"
+  />
+ </head>
+ <body>
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+   <div class="loader">
+    <div class="cross-container">
+     <div class="cross"></div>
+    </div>
+    <p>Carregando...</p>
+   </div>
+  </div>
+
+  <!-- Header -->
+  <header class="nav">
+   <div class="container header-container">
+    <div class="logo">
+     <a href="" aria-label="Página inicial">
+      <img
+       src="img/Captura de tela 2025-07-14 182429.png" style="border-radius: 50%; background-position: center; background-size: auto; background-repeat: no-repeat;"
+       alt="Logo da Igreja Elohim"
+      />
+     </a>
+    </div>
+    <button class="mobile-menu-toggle" aria-label="Menu">
+     <span></span>
+     <span></span>
+     <span></span>
+    </button>
+    <nav class="menu" aria-label="Menu principal">
+     <ul>
+      <li><a href="index.html" class="active">Início</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="contato.html">Contato</a></li>
+      <li><a href="#inscricao" class="btn-nav">Inscreva-se</a></li>
+      <li><a href="edicoes-passadas.html">Edições Passadas</a></li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+
+  <main class="home">
+   <!-- Hero Banner -->
+   <section class="banner">
+    <div class="banner-overlay"></div>
+    <img
+     src="https://rotasdeviagem.com.br/wp-content/uploads/2021/12/barraca-acampamento-montanha-gramado.jpg"
+     alt="Barraca de acampamento em montanha"
+    />
+    <div class="texto">
+     <h1>Está pronto para viver dias que marcarão sua fé?</h1>
+     <p>
+      Acampamento Esperança 2025 - Uma experiência que vai transformar sua vida
+     </p>
+     <a href="#inscricao" class="btn btn-primary">Inscreva-se Agora</a>
+    </div>
+   </section>
+
+   <!-- About Section -->
+   <section class="comeco" id="sobre">
+    <div class="container">
+     <div class="section-header">
+      <h2>Aqui Começa Sua Jornada</h2>
+      <div class="underline"></div>
+     </div>
+
+     <div class="content-wrapper">
+      <div class="boasVinda">
+       <p>
+        <strong>Seja bem-vindo ao Acampamento Esperança.</strong> Você não está
+        aqui por acaso. Este é o seu tempo de renovação, de encontros
+        verdadeiros e de uma fé fortalecida.
+       </p>
+
+       <div class="bible-quote">
+        <i class="fas fa-book-bible"></i>
+        <blockquote>
+         "Mas aqueles que esperam no Senhor renovam suas forças…" – Isaías 40:31
+        </blockquote>
+       </div>
+
+       <div class="theme-highlight">
+        <h3>Tema do Acampamento Elohim 2025:</h3>
+        <h4>Renovação Que Vem do Alto</h4>
+       </div>
+
+       <p>
+        <strong
+         >Dias que renovam a fé, fortalecem o coração e criam laços que
+         permanecem. Prepare-se para viver encontros reais com Deus, com você
+         mesmo e com pessoas que vão marcar sua história.</strong
+        >
+       </p>
+
+       <div class="event-info">
+        <ul class="info-evento">
+         <li>
+          <i class="fas fa-calendar"></i> <strong>Data:</strong> 10 a 14 de
+          janeiro de 2025
+         </li>
+         <li>
+          <i class="fas fa-map-marker-alt"></i> <strong>Local:</strong> Rua
+          Benedito de Carvalho 765, Caraguatatuba, SP
+         </li>
+         <li>
+          <i class="fas fa-user"></i> <strong>Idade:</strong> A partir de 12
+          anos
+         </li>
+         <li>
+          <i class="fas fa-money-bill-wave"></i> <strong>Valor:</strong> R$
+          50,00
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+
+   <!-- Registration Form Section -->
+   <section class="inscricao-section" id="inscricao">
+    <div class="container">
+     <div class="section-header light">
+      <h2>Inscreva-se Agora</h2>
+      <div class="underline light"></div>
+      <p>
+       Não perca a chance de vivenciar momentos transformadores. As vagas são
+       limitadas!
+      </p>
+     </div>
+
+     <div class="form-container">
+      <form
+       id="inscricao-form"
+       action="https://api.sheetmonkey.io/form/6K4QnQDk99LrBDURqLwjqC"
+       method="post"
+      >
+       <div class="form-group">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required />
+       </div>
+
+       <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+       </div>
+
+       <div class="form-group">
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required />
+       </div>
+
+       <div class="form-group">
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" min="12" required />
+       </div>
+
+       <div class="form-group">
+        <label for="congregacao">Congregação (opcional):</label>
+        <input type="text" id="congregacao" name="congregacao" />
+       </div>
+
+       <div class="form-submit">
+        <input type="submit" value="Enviar Inscrição" class="btn btn-primary" />
+       </div>
+      </form>
+     </div>
+    </div>
+   </section>
+
+   <!-- Testimonials Section -->
+   <section class="testimonials">
+    <div class="container">
+     <div class="section-header">
+      <h2>Testemunhos</h2>
+      <div class="underline"></div>
+      <p>Veja como o Acampamento Esperança tem transformado vidas</p>
+     </div>
+
+     <div class="testimonial-slider">
+      <div class="testimonial-card">
+       <div class="testimonial-content">
+        <p>
+         "O Acampamento Esperança mudou completamente minha visão sobre Deus.
+         Foi uma experiência incrível que nunca vou esquecer!"
+        </p>
+       </div>
+       <div class="testimonial-author">
+        <img src="https://i.pravatar.cc/100?img=1" alt="Testemunho 1" />
+        <div>
+         <h4>Maria Silva</h4>
+         <p>Participante 2024</p>
+        </div>
+       </div>
+      </div>
+
+      <div class="testimonial-card">
+       <div class="testimonial-content">
+        <p>
+         "Conheci pessoas maravilhosas e aprendi tanto sobre minha fé. Recomendo
+         a todos que querem fortalecer sua relação com Deus."
+        </p>
+       </div>
+       <div class="testimonial-author">
+        <img src="https://i.pravatar.cc/100?img=2" alt="Testemunho 2" />
+        <div>
+         <h4>João Oliveira</h4>
+         <p>Participante 2023</p>
+        </div>
+       </div>
+      </div>
+
+      <div class="testimonial-card">
+       <div class="testimonial-content">
+        <p>
+         "Os momentos de adoração durante o acampamento foram os mais profundos
+         que já vivi. Uma experiência que transformou minha vida!"
+        </p>
+       </div>
+       <div class="testimonial-author">
+        <img src="https://i.pravatar.cc/100?img=3" alt="Testemunho 3" />
+        <div>
+         <h4>Ana Costa</h4>
+         <p>Participante 2024</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+   <div class="container">
+    <div class="footer-content">
+     <div class="footer-logo">
+      <img src="img/Captura de tela 2025-07-14 182429.png" alt="Logo da Igreja Elohim" style="border-radius: 50%; background-position: center; background-size: auto; background-repeat: no-repeat;" />
+      <p>Acampamento Esperança 2025</p>
+     </div>
+
+     <div class="footer-links">
+      <h3>Links Rápidos</h3>
+      <ul>
+       <li><a href="index.html">Início</a></li>
+       <li><a href="sobre.html">Sobre</a></li>
+       <li><a href="contato.html">Contato</a></li>
+       <li><a href="edicoes-passadas.html">Edições Passadas</a></li>
+      </ul>
+     </div>
+
+     <div class="footer-contact">
+      <h3>Contato</h3>
+      <p><i class="fas fa-map-marker-alt"></i>Rua Benedito de Carvalho 765</p>
+      <p><i class="fas fa-phone"></i> (12) 99176-4557 <br />(12) 99190-3287</p>
+      <p>
+       <i class="fas fa-envelope"></i>
+       <a
+        href="/cdn-cgi/l/email-protection"
+        class="__cf_email__"
+        data-cfemail="mailto:igrejaelohiim@gmail.com"
+        >Email&#160;Elohim</a
+       >
+      </p>
+     </div>
+
+     <div class="footer-social">
+      <h3>Redes Sociais</h3>
+      <div class="social-icons">
+       <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+       <a href="https://www.instagram.com/igrejaelohiim/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+       <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+       <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+     </div>
+    </div>
+
+    <div class="footer-bottom">
+     <p>&copy; 2024 Igreja Elohim. Todos os direitos reservados.</p>
+    </div>
+   </div>
+  </footer>
+
+  <script
+   data-cfasync="false"
+   src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+  ></script>
+  <script src="./script.js"></script>
+ </body>
+</html>
